@@ -1,1 +1,3 @@
 # DALI_Dev_Challenge
+
+This is Colin Wolfe's 24W DALI Lab Developer Challenge. For this, I took the superstore data csv, and built several models to predict the profits (with a total range of > $11,000) of a sale based on region bought, shipping type, item category, quantity sold, and Discount Added. I used 4 prebuilt models (with some custom parameters) and built 2 independent neural networks. The best result was from neural network one, which had a mean absolute error of $39.4. The code, as well as some data analysis, for these models can be found in DALI.ipynb  Visit the weights files to find the neural network weights that worked the best (lowest MAE), and also visit the superstore csv to review the data itself.
